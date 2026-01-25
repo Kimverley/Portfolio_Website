@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume | Kimverley Herrera Mejia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(249, 249, 249);
+  color: rgb(51, 51, 51);
+  line-height: 1.6;
+}
+
+/* CONTAINER */
+.resume-container {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 3rem;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* HEADER */
+.resume-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.resume-header h1 {
+  font-size: 2.5rem;
+  color: #589858;
+  margin-bottom: 0.3rem;
+}
+
+.resume-header .title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(46, 204, 113);
+}
+
+.resume-header .contact {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.resume-header a {
+  color: rgb(46, 204, 113);
+  text-decoration: none;
+}
+
+.resume-header a:hover {
+  text-decoration: underline;
+}
+
+/* SECTIONS */
+section {
+  margin-bottom: 2.5rem;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: rgb(46, 204, 113);
+  border-bottom: 2px solid rgb(156, 211, 180);
+  padding-bottom: 0.4rem;
+}
+
+/* CONTENT */
+.item {
+  margin-bottom: 1.5rem;
+}
+
+.item h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+ul {
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+
+.skills-list,
+.interests {
+  columns: 2;
+  column-gap: 2rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .resume-container {
+    padding: 2rem;
+    margin: 2rem 1rem;
+  }
+
+  .skills-list,
+  .interests {
+    columns: 1;
+  }
+
+  .resume-header h1 {
+    font-size: 2rem;
+  }
+}
+
+</style>
+<body>
+    <!-- Nav -->
+     <header class="navbar">
+        <div class="nav">
+            <div class="logo">Kimverley Herrera</div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="index.html">Contact</a></li>
+            </ul>
+        </div>
+     </header>
+
+  <main class="resume-container">
+
+    <header class="resume-header">
+      <h1>Kimverley Herrera Mejia</h1>
+      <p class="title">IT Internship Candidate</p>
+      <p class="contact">
+        Phoenix, AZ • (480) 220-8917 • 
+        <a href="mailto:kimverleyherrera73@gmail.com">
+          kimverleyherrera73@gmail.com
+        </a>
+      </p>
+    </header>
+
+    <section>
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Microsoft Word, Excel, PowerPoint</li>
+        <li>HTML, CSS, Basic JavaScript</li>
+        <li>Bilingual: English & Spanish</li>
+        <li>Critical Thinking & Problem Solving</li>
+        <li>Organization & Time Management</li>
+        <li>Team Collaboration</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+
+      <div class="item">
+        <h3>Copper Canyon High School — Glendale, AZ</h3>
+        <span class="date">Expected Graduation: May 2027</span>
+        <ul>
+          <li>GPA: 3.8 / 4.0, Graduating with Honors</li>
+          <li>Member of National Honor Society (NHS)</li>
+          <li>Member of Future Business Leaders of America (FBLA)</li>
+          <li>Completed Advanced Placement (AP) courses</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <h3>West-MEC Coding Program — Glendale, AZ</h3>
+        <span class="date">Expected Completion: May 2027</span>
+        <ul>
+          <li>Learned HTML, CSS, and basic JavaScript</li>
+          <li>Developed teamwork and collaboration skills</li>
+          <li>Built foundational web development projects</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Awards & Certifications</h2>
+      <ul>
+        <li>Superintendent’s Honor List — Academic Excellence</li>
+        <li>Certiport HTML & CSS Certification</li>
+        <li>National Honor Society Member — Leadership & Service</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Interests</h2>
+      <ul class="interests">
+        <li>Coding and building websites</li>
+        <li>Exploring new technology and software</li>
+        <li>Problem-solving and logical challenges</li>
+        <li>Continuous learning and skill development</li>
+      </ul>
+    </section>
+
+  </main>
+
+</body>
+</html>
